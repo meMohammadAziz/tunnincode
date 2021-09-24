@@ -1,0 +1,32 @@
+.main {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.left {
+  /* background-color:; */
+  height: 100vh;
+}
+
+.right {
+  background-color: #2b2c4b;
+  z-index: 50;
+  padding: 10px;
+}
+
+.carde {
+  width: 100%;
+  /* background-color:pink; */
+}
+
+.header {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 3px;
+}
+
+.comments {
+  height: 600px;
+  overflow-x: auto;
+}

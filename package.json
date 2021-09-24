@@ -1,0 +1,71 @@
+{
+  "name": "tunnins-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.1",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "agora-rtc-sdk": "^3.4.0",
+    "agora-rtc-sdk-ng": "^4.4.0",
+    "apisauce": "^2.0.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "dateformat": "^4.5.1",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-custom-checkbox": "^1.0.7",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-hot-toast": "^1.0.2",
+    "react-mic": "^12.4.6",
+    "react-notifications": "^1.7.2",
+    "react-notify-toast": "^0.5.1",
+    "react-redux": "^7.2.2",
+    "react-responsive-carousel": "^3.2.15",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-toastify": "^5.5.0",
+    "react-webcam": "^5.2.3",
+    "reactstrap": "^8.8.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "time-ago": "^0.2.1",
+    "toastr": "^2.1.4",
+    "universal-cookie": "^4.0.4",
+    "use-file-picker": "^0.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "https://54.225.0.46:8052/",
+  "headers": {
+    "Access-Control-Allow-Origin": "*"
+  }
+}

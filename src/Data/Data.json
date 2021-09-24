@@ -1,0 +1,1457 @@
+{
+    "login": {
+        "heading": "Tunnin"
+    },
+    "loginForm": {
+        "welcomeText": "Welcome back.",
+        "loginNote": "Please login to continue",
+        "email": "Email Address",
+        "password": "Password",
+        "remember": "Remember Me",
+        "forgot": "Forgot Password?",
+        "loginBtn": "Login",
+        "signup-text": "Don’t have an account? SIGN UP",
+        "route": "/signup"
+    },
+    "forgotPassword": {
+        "heading": "Forgot Password?",
+        "email": "Email Address",
+        "btnText": "Send"
+    },
+    "resetPassword": {
+        "heading": "Reset Password",
+        "text": "A link to reset your password has been sent to your registered email address",
+        "btnText": "Ok"
+    },
+    "signUp": {
+        "welcomeText": "Welcome to Tunnin.",
+        "heading": "Create your account to continue",
+        "btnText": "GET STARTED",
+        "question": "Already have an account? ",
+        "signIn": "SIGN IN",
+        "route": "/"
+    },
+    "header": {
+        "paths": [
+            {
+                "class": "path1"
+            },
+            {
+                "class": "path2"
+            },
+            {
+                "class": "path3"
+            }
+        ],
+        "credentials": [
+            {
+                "class": "name",
+                "title": "Sanjay Singh"
+            },
+            {
+                "class": "email",
+                "title": "sanjay.singh@gmail.com"
+            }
+        ],
+        "dropdown": [
+            {
+                "title": "View Profile",
+                "route": "/user-profile",
+                "iconClass": "icon-avatar"
+            },
+            {
+                "title": "Log out",
+                "route": "/",
+                "iconClass": "icon-logout"
+            }
+        ]
+    },
+    "createAccount": {
+        "heading": "Let’s create your account.",
+        "subHeading": "Fill in the details below",
+        "details": [
+            {
+                "name": "Full Name",
+                "placeholder": "Elias Manik",
+                "type": "text",
+                "field": "f_name",
+                "fieldIcon": "icon-person",
+                "fieldIconPas": ""
+            },
+            {
+                "name": "Password",
+                "placeholder": "***************",
+                "type": "password",
+                "field": "pass",
+                "fieldIcon": "icon-lock-unlock",
+                "fieldIconPas": "icon-outline-visibility_off-24px"
+            },
+            {
+                "name": "Email Address",
+                "placeholder": "dodgeui2020@gmail.com",
+                "type": "email",
+                "field": "email",
+                "fieldIcon": "icon-mail",
+                "fieldIconPas": ""
+            },
+            {
+                "name": "Confirm Password",
+                "placeholder": "***************",
+                "type": "password",
+                "field": "c_pass",
+                "fieldIcon": "icon-lock-unlock",
+                "fieldIconPas": "icon-outline-visibility_off-24px"
+            },
+            {
+                "name": "Date of Birth",
+                "placeholder": "15-July-1996",
+                "type": "date",
+                "field": "dob",
+                "fieldIcon": "icon-calender",
+                "fieldIconPas": ""
+            }
+        ],
+        "subscribe": "Subscribe to our newsletter",
+        "btnText": "NEXT",
+        "route": "/verify"
+    },
+    "verify": {
+        "heading": "Verify your email.",
+        "msg": "An email has been sent to your inbox. Please verify your email to continue.",
+        "btnText": "Ok",
+        "route": "/signup-profile"
+    },
+    "profile": {
+        "heading": "Tell us more about your fitness practice.",
+        "subHeading": "Setup your profile",
+        "formFields": [
+            {
+                "labelName": "Username",
+                "type": "text",
+                "key": "username",
+                "placeholder": "We recommend using the same username as your Instagram"
+            },
+            {
+                "labelName": "Business Name",
+                "type": "text",
+                "key": "business_name",
+                "placeholder": "Enter your business name here"
+            },
+            {
+                "labelName": "Location",
+                "type": "text",
+                "key": "location",
+                "placeholder": "Where are you located?"
+            },
+            {
+                "labelName": "Phone Number",
+                "type": "text",
+                "key": "phone_num",
+                "placeholder": "Area Code + Telephone Number"
+            },
+            {
+                "labelName": "About",
+                "type": "textarea",
+                "key": "about",
+                "placeholder": "Describe your fitness practice here (500 characters max)"
+            },
+            {
+                "labelName": "Instagram Profile URL",
+                "type": "text",
+                "key": "insta_url",
+                "placeholder": "www.instagram.com/yourprofile"
+            }
+        ],
+        "categories": "Select Categories",
+        "catFields": [
+            {
+                "name": "Cardio",
+                "value": "Cardio"
+            },
+            {
+                "name": "Strength",
+                "value": "Strength"
+            },
+            {
+                "name": "HIIT",
+                "value": "HIIT"
+            },
+            {
+                "name": "CrossFit",
+                "value": "CrossFit"
+            },
+            {
+                "name": "Boxing",
+                "value": "Boxing"
+            },
+            {
+                "name": "Yoga",
+                "value": "Yoga"
+            },
+            {
+                "name": "Barre",
+                "value": "Barre"
+            },
+            {
+                "name": "Pilates",
+                "value": "Pilates"
+            },
+            {
+                "name": "Zumba",
+                "value": "Zumba"
+            },
+            {
+                "name": "Dance",
+                "value": "Dance"
+            }
+        ],
+        "btnText": "NEXT",
+        "route": "/signup-face"
+    },
+    "profileFace": {
+        "heading": "Put a face to the name.",
+        "subHeading": "Complete your profile with your best pictures",
+        "upload": "Upload Images",
+        "imageList": [
+            {
+                "label": "Cover Image"
+            },
+            {
+                "label": "Gallery Image"
+            },
+            {
+                "label": "Gallery Image"
+            },
+            {
+                "label": "Gallery Image"
+            },
+            {
+                "label": "Gallery Image"
+            }
+        ],
+        "btnText": "NEXT",
+        "route": "/signup-bank"
+    },
+    "signupBank": {
+        "heading": "Connect your bank account.",
+        "subHeading": "We will use this account to deposit your payments",
+        "country": "Select Country",
+        "countryList": [
+            {
+                "name": "United States or Canada",
+                "value": "United States or Canada"
+            },
+            {
+                "name": "Canada",
+                "value": "Canada"
+            },
+            {
+                "name": "USA",
+                "value": "USA"
+            }
+        ],
+        "btnText": "NEXT",
+        "route": "/connect-bank"
+    },
+    "connectBank": {
+        "heading": "Connect your bank account.",
+        "subHeading": "We will use this account to deposit your payments",
+        "label": "Fields to be populated based on Stripe requirements. Will be country specific (one for US and one for Canada)",
+        "btnText": "NEXT",
+        "route": "/notification"
+    },
+    "sideBarList": [
+        {
+            "name": "My Sessions",
+            "icon": "icon-frame-4 d-block",
+            "route": "/notification",
+            "active": false
+        },
+        {
+            "name": "My Earnings",
+            "icon": "icon-earnings d-block",
+            "route": "/my-earnings",
+            "active": false
+        },
+        {
+            "name": "Payouts",
+            "icon": "icon-pay d-block",
+            "route": "/payouts",
+            "active": false
+        },
+        {
+            "name": "Ratings & Reviews",
+            "icon": "icon-review d-block",
+            "route": "/ratings",
+            "active": false
+        },
+        {
+            "name": "Settings",
+            "icon": "icon-settings d-block",
+            "route": "/settings-contact",
+            "active": false
+        }
+    ],
+    "notification": {
+        "sideList": [
+            {
+                "name": "My Sessions",
+                "icon": "icon-frame-4 d-block",
+                "route": "/notification",
+                "active": false
+            },
+            {
+                "name": "My Earnings",
+                "icon": "icon-earnings d-block",
+                "route": "/my-earnings",
+                "active": false
+            },
+            {
+                "name": "Payouts",
+                "icon": "icon-pay d-block",
+                "route": "/payouts",
+                "active": false
+            },
+            {
+                "name": "Ratings & Reviews",
+                "icon": "icon-review d-block",
+                "route": "/ratings",
+                "active": false
+            },
+            {
+                "name": "Settings",
+                "icon": "icon-settings d-block",
+                "route": "/settings-contact",
+                "active": false
+            }
+        ],
+        "btns": [
+            {
+                "title": "Upcoming Session",
+                "sessionType": true,
+                "route": "upcoming",
+                "flag": true
+            },
+            {
+                "title": "Past Session",
+                "sessionType": true,
+                "route": "past",
+                "routeTo": "/session-details-past",
+                "flag": true
+            },
+            {
+                "title": "+ Add New Session",
+                "sessionType": false,
+                "route": "/add-new-session",
+                "flag": true
+            }
+        ],
+        "cards": [
+            {
+                "heading": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "booked": "10 Users Booked",
+                "golive": "Go Live",
+                "past": "View Details",
+                "routeTo": "/session-details-past",
+                "routeToTest": "/test-audio-video"
+            },
+            {
+                "heading": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "booked": "10 Users Booked",
+                "golive": "Go Live",
+                "past": "View Details",
+                "routeTo": "/session-details-past",
+                "routeToTest": "/test-audio-video"
+            },
+            {
+                "heading": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "booked": "10 Users Booked",
+                "golive": "Go Live",
+                "past": "View Details",
+                "routeTo": "/session-details-past",
+                "routeToTest": "/test-audio-video"
+            },
+            {
+                "heading": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "booked": "10 Users Booked",
+                "golive": "Go Live",
+                "past": "View Details",
+                "routeTo": "/session-details-past",
+                "routeToTest": "/test-audio-video"
+            }
+        ],
+        "userCards": [
+            {
+                "heading": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "booked": "10 Users Booked",
+                "golive": "Go Live",
+                "past": "View Details",
+                "routeTo": "/session-details-user",
+                "status": "Status: Completed",
+                "statusDetail": "Completed",
+                "statusIcon": "icon-ic_completed",
+                "amount": "$40",
+                "cancelPolicy": "See Cancellation Policy",
+                "personName": "Rollester fux",
+                "need": "What You Need",
+                "about": "About",
+                "cName": "Zumba",
+                "mainHeading": "Session Details",
+                "needContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+
+                "aboutContent": "If you're offered a seat on a rocket ship. don't ask what seat! just get on board & move the sail towards the destination."
+            },
+            {
+                "heading": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "booked": "10 Users Booked",
+                "golive": "Go Live",
+                "past": "View Details",
+                "status": "Status: Cancelled",
+                "statusDetail": "Cancelled",
+                "statusIcon": "icon-ic_cancelled",
+                "amount": "$40",
+                "cancelPolicy": "See Cancellation Policy",
+                "personName": "Rollester fux",
+                "need": "What You Need",
+                "about": "About",
+                "cName": "Zumba",
+                "mainHeading": "Session Details",
+                "needContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "routeTo": "/session-details-user",
+                "aboutContent": "If you're offered a seat on a rocket ship. don't ask what seat! just get on board & move the sail towards the destination."
+            },
+            {
+                "heading": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "booked": "10 Users Booked",
+                "golive": "Go Live",
+                "past": "View Details",
+                "status": "Status: Cancelled",
+                "statusDetail": "Cancelled",
+                "statusIcon": "icon-ic_cancelled",
+                "amount": "$40",
+                "cancelPolicy": "See Cancellation Policy",
+                "personName": "Rollester fux",
+                "need": "What You Need",
+                "about": "About",
+                "cName": "Zumba",
+                "mainHeading": "Session Details",
+                "needContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "routeTo": "/session-details-user",
+                "aboutContent": "If you're offered a seat on a rocket ship. don't ask what seat! just get on board & move the sail towards the destination."
+            },
+            {
+                "heading": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "booked": "10 Users Booked",
+                "golive": "Go Live",
+                "past": "View Details",
+                "status": "Status: Completed",
+                "statusDetail": "Completed",
+                "statusIcon": "icon-ic_booked",
+                "amount": "$40",
+                "cancelPolicy": "See Cancellation Policy",
+                "personName": "Rollester fux",
+                "need": "What You Need",
+                "about": "About",
+                "cName": "Zumba",
+                "mainHeading": "Session Details",
+                "needContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "routeTo": "/session-details-user",
+                "aboutContent": "If you're offered a seat on a rocket ship. don't ask what seat! just get on board & move the sail towards the destination."
+            }
+        ]
+    },
+    "newSession": {
+        "title": "Add New Session",
+        "btnTitle": "Add",
+        "upload": "Upload Images",
+        "cardList": [
+            {
+                "icon": "icon"
+            },
+            {
+                "icon": "icon"
+            },
+            {
+                "icon": "icon"
+            },
+            {
+                "icon": "icon"
+            }
+        ],
+        "sessionForm": [
+            {
+                "title": "Name Of the Class",
+                "placeholder": "Rolletser Fux",
+                "type": "text",
+                "name": "name_of_class",
+                "size": "4"
+            },
+            {
+                "title": "Session Date",
+                "placeholder": "From",
+                "type": "date",
+                "name": "start_date",
+                "size": "2"
+            },
+            {
+                "title": "",
+                "placeholder": "To",
+                "type": "date",
+                "name": "end_date",
+                "size": "2"
+            },
+            {
+                "title": "What You Need",
+                "placeholder": "Lorem Ipsum",
+                "type": "text",
+                "name": "what_you_need",
+                "size": "4"
+            },
+            {
+                "title": "Name of the Trainer",
+                "placeholder": "Brimbistram",
+                "type": "text",
+                "name": "name_of_trainer",
+                "size": "4"
+            },
+            {
+                "title": "Session Time",
+                "placeholder": "Start",
+                "type": "time",
+                "name": "start_time",
+                "size": "2"
+            },
+            {
+                "title": "",
+                "placeholder": "End",
+                "type": "time",
+                "name": "end_time",
+                "size": "2"
+            },
+            {
+                "title": "Category",
+                "placeholder": "Zumba",
+                "type": "select",
+                "size": "4",
+                "name": "category",
+                "options": [
+                    {
+                        "title": "Zumba",
+                        "value": "Zumba"
+                    },
+                    {
+                        "title": "Zumba A",
+                        "value": "Zumba A"
+                    },
+                    {
+                        "title": "Zumba B",
+                        "value": "Zumba B"
+                    }
+                ]
+            },
+            {
+                "title": "About",
+                "placeholder": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+                "type": "text",
+                "name": "about",
+                "size": "4"
+            },
+            {
+                "title": "Session Price",
+                "placeholder": "CAD",
+                "type": "text",
+                "name": "session_price",
+                "size": "4"
+            }
+        ]
+    },
+    "editSesion": {
+        "title": "Edit Session",
+        "btnTitle": "Save"
+    },
+    "sessionModal": {
+        "addedSession": {
+            "title": "Session Added Sucessfully!",
+            "content": "Your session at 11:00 AM on July 27, 2020 has been added successfully",
+            "btn": [
+                {
+                    "title": "Ok",
+                    "route": "/notification"
+                }
+            ]
+        },
+        "editedSession": {
+            "title": "Session Edited Sucessfully!",
+            "content": "Your session edited successfully",
+            "btn": [
+                {
+                    "title": "Ok",
+                    "route": "/notification"
+                }
+            ]
+        },
+        "cancelSession": {
+            "title": "Cancel Session",
+            "content": "Are you sure you want to cancel this session?",
+            "btn": [
+                {
+                    "title": "Yes",
+                    "action": "yes"
+                },
+                {
+                    "title": "No",
+                    "action": "no"
+                }
+            ]
+        },
+        "cancelledSession": {
+            "title": "Session Cancelled",
+            "content": "Your session has been cancelled succesfullfy",
+            "btn": [
+                {
+                    "title": "Return to My Sessions",
+                    "route": "/add-new-session"
+                }
+            ]
+        }
+    },
+    "sessionDetails": {
+        "title": "Session Details",
+        "btns": [
+            {
+                "title": "Edit Session",
+                "action": "edit",
+                "route": "/edit-session",
+                "flag": true
+            },
+            {
+                "title": "Cancel Session",
+                "action": "cancel",
+                "flag": true
+            },
+            {
+                "title": "Ratings & Reviews",
+                "action": "ratings",
+                "type": "ratings",
+                "route": "/session-ratings",
+                "flag": false
+            }
+        ],
+        "detailTitle": "Rolletser Fux",
+        "detailDate": "June 12, 2020",
+        "detailTime": "5:00 AM - 6:00 AM",
+        "booked": "10 Users Booked",
+        "cancellationPolicy": "See Cancellation Policy",
+        "cancelroute": "/cancellation-policy",
+        "usersViewed": "Users who have booked",
+        "usersList": [
+            {
+                "name": "Jake Miller"
+            },
+            {
+                "name": "Zac Berge"
+            },
+            {
+                "name": "Joel Parisian Sr."
+            },
+            {
+                "name": "Maya Stewart"
+            },
+            {
+                "name": "Phoenix Parker"
+            },
+            {
+                "name": "Ava Hyatt"
+            },
+            {
+                "name": "Heidi Glover"
+            },
+            {
+                "name": "Zac Heaney"
+            },
+            {
+                "name": "Sam Hill"
+            },
+            {
+                "name": "Abigail Rodriguez"
+            }
+        ]
+    },
+    "cancellationPolicy": {
+        "title": "Cancellation Policy",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    "reviews": {
+        "upperCard": [
+            {
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "earned": "Earned $150",
+                "content": "15 Users Viewed"
+            }
+        ],
+        "heading": "Reviews & Ratings",
+        "rightheaing": "500 Ratings & Reviews",
+        "ratingList": [
+            {
+                "name": "Sanjay Singh",
+                "date": "15-Aug-2020",
+                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "rating": "5"
+            },
+            {
+                "name": "Sanjay Singh",
+                "date": "15-Aug-2020",
+                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "rating": "5"
+            },
+            {
+                "name": "Sanjay Singh",
+                "date": "15-Aug-2020",
+                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "rating": "5"
+            },
+            {
+                "name": "Sanjay Singh",
+                "date": "15-Aug-2020",
+                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "rating": "5"
+            },
+            {
+                "name": "Sanjay Singh",
+                "date": "15-Aug-2020",
+                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "rating": "3"
+            },
+            {
+                "name": "Sanjay Singh",
+                "date": "15-Aug-2020",
+                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "rating": "1"
+            },
+            {
+                "name": "Sanjay Singh",
+                "date": "15-Aug-2020",
+                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "rating": "2"
+            },
+            {
+                "name": "Sanjay Singh",
+                "date": "15-Aug-2020",
+                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "rating": "5"
+            },
+            {
+                "name": "Sanjay Singh",
+                "date": "15-Aug-2020",
+                "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "rating": "5"
+            }
+        ]
+    },
+    "myearnings": {
+        "heading": "Total Earnings",
+        "upperCards": [
+            {
+                "price": "$500.50",
+                "title": "GROSS",
+                "route": "/earning-details"
+            },
+            {
+                "price": "$500.50",
+                "title": "NET",
+                "route": "/earning-details"
+            }
+        ],
+        "tableHeader": [
+            {
+                "title": "Name of Session"
+            },
+            {
+                "title": "Date"
+            },
+            {
+                "title": "Time"
+            },
+            {
+                "title": "Total Users Booked"
+            },
+            {
+                "title": "Fee"
+            },
+            {
+                "title": "Gross Earnings"
+            },
+            {
+                "title": "Net Income"
+            }
+        ],
+        "tableValues": [
+            {
+                "nameofSession": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "users": "50",
+                "earnings": "$500"
+            },
+            {
+                "nameofSession": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "users": "50",
+                "earnings": "$500"
+            },
+            {
+                "nameofSession": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "users": "50",
+                "earnings": "$500"
+            },
+            {
+                "nameofSession": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "users": "50",
+                "earnings": "$500"
+            },
+            {
+                "nameofSession": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "users": "50",
+                "earnings": "$500"
+            },
+            {
+                "nameofSession": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "users": "50",
+                "earnings": "$500"
+            },
+            {
+                "nameofSession": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "users": "50",
+                "earnings": "$500"
+            },
+            {
+                "nameofSession": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "users": "50",
+                "earnings": "$500"
+            },
+            {
+                "nameofSession": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "users": "50",
+                "earnings": "$500"
+            },
+            {
+                "nameofSession": "Rolletser Fux",
+                "date": "June 12, 2020",
+                "time": "5:00 AM - 6:00 AM",
+                "users": "50",
+                "earnings": "$500"
+            }
+        ]
+    },
+    "earningDetails": {
+        "heading": "Earning Details",
+        "leftSection": {
+            "name": "Rolletser Fux",
+            "date": "June 12, 2020",
+            "time": "5:00 AM - 6:00 AM",
+            "price": "$21",
+            "booked": "10 Users Booked"
+        },
+        "upperCards": [
+            {
+                "price": "100",
+                "title": "Total Bookings",
+                "iconClass": "bookings",
+                "textClass": "text-right"
+            },
+            {
+                "price": "$500.50",
+                "title": "GROSS",
+                "iconClass": "stocks",
+                "textClass": "text-left"
+            },
+            {
+                "price": "$500.50",
+                "title": "NET",
+                "iconClass": "stocks",
+                "textClass": "text-left"
+            }
+        ],
+        "tableHeader": [
+            {
+                "title": "User"
+            },
+            {
+                "title": "Card Used"
+            },
+            {
+                "title": "Receiving Date"
+            }
+        ],
+        "tableValues": [
+            {
+                "name": "Rajan Singh",
+                "card": "xxx-xxx-xxx-xxxx",
+                "date": "June 12, 2020"
+            },
+            {
+                "name": "Samira Sehgal",
+                "card": "xxx-xxx-xxx-xxxx",
+                "date": "June 12, 2020"
+            },
+            {
+                "name": "Rajwinder Khurana",
+                "card": "xxx-xxx-xxx-xxxx",
+                "date": "June 12, 2020"
+            },
+            {
+                "name": "Sanjay Singh",
+                "card": "xxx-xxx-xxx-xxxx",
+                "date": "June 12, 2020"
+            },
+            {
+                "name": "Rahul Saini",
+                "card": "xxx-xxx-xxx-xxxx",
+                "date": "June 12, 2020"
+            },
+            {
+                "name": "Rajan Singh",
+                "card": "xxx-xxx-xxx-xxxx",
+                "date": "June 12, 2020"
+            },
+            {
+                "name": "Rajan Singh",
+                "card": "xxx-xxx-xxx-xxxx",
+                "date": "June 12, 2020"
+            }
+        ]
+    },
+    "payouts": {
+        "heading": "Payouts",
+        "inputs": [
+            {
+                "type": "date",
+                "placeholder": "From DD/MM/YYY",
+                "label": "From"
+            },
+            {
+                "type": "date",
+                "placeholder": "To DD/MM/YYY",
+                "label": "To"
+            }
+        ],
+        "tableHeader": [
+            {
+                "title": "Payout Date"
+            },
+            {
+                "title": "Pay Period"
+            },
+            {
+                "title": "Earnings"
+            },
+            {
+                "title": "Fees"
+            },
+            {
+                "title": "Total Payouts"
+            }
+        ],
+        "tableValues": [
+            {
+                "date": "June 12, 2020",
+                "period": "Aug 22-Aug 29 2020",
+                "earnings": "$500",
+                "fees": "$50",
+                "totalpayouts": "$500"
+            },
+            {
+                "date": "June 12, 2020",
+                "period": "Aug 22-Aug 29 2020",
+                "earnings": "$500",
+                "fees": "$50",
+                "totalpayouts": "$500"
+            },
+            {
+                "date": "June 12, 2020",
+                "period": "Aug 22-Aug 29 2020",
+                "earnings": "$500",
+                "fees": "$50",
+                "totalpayouts": "$500"
+            },
+            {
+                "date": "June 12, 2020",
+                "period": "Aug 22-Aug 29 2020",
+                "earnings": "$500",
+                "fees": "$50",
+                "totalpayouts": "$500"
+            },
+            {
+                "date": "June 12, 2020",
+                "period": "Aug 22-Aug 29 2020",
+                "earnings": "$500",
+                "fees": "$50",
+                "totalpayouts": "$500"
+            },
+            {
+                "date": "June 12, 2020",
+                "period": "Aug 22-Aug 29 2020",
+                "earnings": "$500",
+                "fees": "$50",
+                "totalpayouts": "$500"
+            },
+            {
+                "date": "June 12, 2020",
+                "period": "Aug 22-Aug 29 2020",
+                "earnings": "$500",
+                "fees": "$50",
+                "totalpayouts": "$500"
+            },
+            {
+                "date": "June 12, 2020",
+                "period": "Aug 22-Aug 29 2020",
+                "earnings": "$500",
+                "fees": "$50",
+                "totalpayouts": "$500"
+            }
+        ]
+    },
+    "userprofile": {
+        "title": "Profile",
+        "editTitle": "Edit Profile",
+        "editBtn": "Edit",
+        "saveBtn": "Save",
+        "btns": [
+            {
+                "title": "Edit Profile",
+                "route": "/edit-user-profile",
+                "flag": true,
+                "iconClass": "icon-edit"
+            },
+            {
+                "title": "Save",
+                "route": "/user-profile",
+                "flag": false,
+                "iconClass": ""
+            }
+        ],
+        "userDetails": {
+            "name": "Stephen Paul",
+            "id": "@Stephen97",
+            "img": "",
+            "coverImages": [
+                {
+                    "img": "",
+                    "alt": "cover"
+                },
+                {
+                    "img": "",
+                    "alt": "cover"
+                },
+                {
+                    "img": "",
+                    "alt": "cover"
+                },
+                {
+                    "img": "",
+                    "alt": "cover"
+                }
+            ],
+            "userform": [
+                {
+                    "title": "About",
+                    "type": "textarea",
+                    "size": "4",
+                    "paddingClass": "",
+                    "placeholder": "If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on board & move the sail towards the destination."
+                },
+                {
+                    "title": "Category",
+                    "type": "text",
+                    "size": "2",
+                    "paddingClass": "",
+                    "placeholder": "Zumba,Full Body"
+                },
+                {
+                    "title": "Business Name",
+                    "type": "text",
+                    "size": "3",
+                    "paddingClass": "",
+                    "placeholder": "Some private Ltd."
+                },
+                {
+                    "title": "DOB",
+                    "type": "text",
+                    "size": "2",
+                    "paddingClass": "",
+                    "placeholder": "June 27, 1991"
+                },
+                {
+                    "title": "Location",
+                    "type": "text",
+                    "size": "3",
+                    "paddingClass": "",
+                    "placeholder": "Eleven Junks, Street 11, USA"
+                },
+                {
+                    "title": "Gender",
+                    "type": "text",
+                    "size": "2",
+                    "paddingClass": "",
+                    "placeholder": "Male"
+                },
+                {
+                    "title": "Instagram Profile URL",
+                    "type": "text",
+                    "size": "3",
+                    "paddingClass": "",
+                    "placeholder": "www.instagram.com/drabhinav"
+                },
+                {
+                    "title": "Email Address",
+                    "type": "mail",
+                    "size": "3",
+                    "paddingClass": "",
+                    "placeholder": "abcd@egf.com"
+                }
+            ],
+            "userformEdit": [
+                {
+                    "title": "Name",
+                    "type": "text",
+                    "size": "4",
+                    "paddingClass": "pl-0",
+                    "placeholder": "Stephen Paul"
+                },
+                {
+                    "title": "Email Address",
+                    "type": "mail",
+                    "size": "3",
+                    "paddingClass": "pl-0",
+                    "placeholder": "abcd@egf.com"
+                },
+                {
+                    "title": "Category",
+                    "type": "text",
+                    "size": "2",
+                    "paddingClass": "pl-0",
+                    "placeholder": "Zumba,Full Body"
+                },
+                {
+                    "title": "Instagram Profile URL",
+                    "type": "text",
+                    "size": "3",
+                    "paddingClass": "pl-0",
+                    "placeholder": "www.instagram.com/drabhinav"
+                },
+                {
+                    "title": "User Name",
+                    "type": "text",
+                    "size": "4",
+                    "paddingClass": "",
+                    "placeholder": "@stephen97"
+                },
+                {
+                    "title": "Gender",
+                    "type": "text",
+                    "size": "2",
+                    "paddingClass": "",
+                    "placeholder": "Male"
+                },
+                {
+                    "title": "Location",
+                    "type": "text",
+                    "size": "3",
+                    "paddingClass": "",
+                    "placeholder": "Eleven Junks, Street 11, USA"
+                },
+                {
+                    "title": "DOB",
+                    "type": "text",
+                    "size": "2",
+                    "placeholder": "June 27, 1991"
+                },
+                {
+                    "title": "About",
+                    "type": "textarea",
+                    "size": "4",
+                    "paddingClass": "",
+                    "placeholder": "If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on board & move the sail towards the destination."
+                },
+                {
+                    "title": "Business Name",
+                    "type": "text",
+                    "size": "3",
+                    "paddingClass": "",
+                    "placeholder": "Some private Ltd."
+                }
+            ]
+        }
+    },
+    "settings": {
+        "sidebar": [
+            {
+                "title": "Contact Admin",
+                "route": "/settings-contact",
+                "iconClass": "icon-avatar"
+            },
+            {
+                "title": "Bank Details",
+                "route": "/settings-bank-details",
+                "iconClass": "icon-wallet-1"
+            },
+            {
+                "title": "Terms & Conditions",
+                "route": "/settings-terms-condition",
+                "iconClass": "icon-portable-document-format"
+            },
+            {
+                "title": "About Us",
+                "route": "/settings-about-us",
+                "iconClass": "icon-info"
+            },
+            {
+                "title": "Privacy Policy",
+                "route": "/settings-privacy-policy",
+                "iconClass": "icon-shield"
+            },
+            {
+                "title": "FAQ’s",
+                "route": "/settings-faqs",
+                "iconClass": "icon-communications"
+            }
+        ],
+        "contacts": {
+            "title": "Contact Admin",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "btn": "Send"
+        },
+        "bankDetails": {
+            "title": "Bank Details",
+            "bankform": [
+                {
+                    "title": "Bank Name",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "Address Line 1",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "Account Holder Name",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "Address Line 2",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "Account Number",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "City",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "Routing Number",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "State",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "SSN (Last Four Digits)",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "Gender",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "Postal Code",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "Email",
+                    "size": "6",
+                    "type": "email"
+                },
+                {
+                    "title": "Country",
+                    "size": "6",
+                    "type": "text"
+                },
+                {
+                    "title": "Date Of Birth",
+                    "size": "6",
+                    "type": "date"
+                }
+            ]
+        },
+        "terms": {
+            "title": "Terms & Conditions",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "descriptionFooter": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        },
+        "about": {
+            "title": "About Us",
+            "description": "Tunnin is a platform which enables Trainers to offer live fitness classes to their Customers. Both Trainers and Customers can enjoy complete flexibility by choosing when and where they want to workout. ",
+            "detailTitle": "For Trainers",
+            "details": [
+                {
+                    "content": "Add another revenue stream for your business."
+                },
+                {
+                    "content": "No capacity limit on your classes – so you can literally earn as much as you want."
+                },
+                {
+                    "content": "Enjoy complete flexibility by choosing when you want to offer classes through the platform."
+                },
+                {
+                    "content": "Fully remote solution so you can host your classes from literally anywhere."
+                },
+                {
+                    "content": "No commitment needed. Simply offer classes whenever you feel like it."
+                }
+            ]
+        },
+        "privacy": {
+            "title": "PRIVACY POLICY",
+            "lastUpdated": "Last Updated: June 1, 2021",
+            "overviewHeading": "OVERVIEW",
+            "overviewList": [
+                {
+                    "overView": "Tunnin, Inc. (“Tunnin,” “we,” “us,” “our”) respect your privacy and are committed to protecting the personal data we hold about you. If you have questions, comments, or concerns about this Privacy Policy or our processing of personal data, please see the bottom of this Privacy Policy for information about how to contact us. Tunnin is the data controller of the personal data collected, and is responsible for the processing of your personal data."
+                },
+                {
+                    "overView": "Tunnin is a platform which enables users to share their content; other users to enjoy content and for some to do both. We refer to those users who share content as “Trainers” and those users who pay to view Trainers’ content as “Customers”. This Privacy Policy explains our practices with respect to personal data we collect and process about you. This includes information we collect through, or in association with, our website located at www.tunnin.io, our mobile app, our services that we may offer from time to time via our website, our related social media sites (Twitter and Instagram), or otherwise through your interactions with us (the website, our social media pages, and services, collectively, the “Services”)."
+                },
+                {
+                    "overView": "Please review the following to understand how we process and safeguard personal data about you. By using any of our Services, whether by visiting our website or otherwise, and/or by voluntarily providing personal data to us, you acknowledge that you have read and understand the practices contained in this Privacy Policy. This Privacy Policy may be revised from time to time, so please ensure that you check this Privacy Policy periodically to remain fully informed."
+                }
+            ],
+            "personalDataHeading": "PERSONAL DATA WE COLLECT",
+            "personalDataList": [
+                {
+                    "personalData": "We collect information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household (“personal data”). In addition, we may collect data that is not identifiable to you or otherwise associated with you, such as aggregated data, and is not personal data. To the extent this data is stored or associated with personal data, it will be treated as personal data; otherwise, the data is not subject to this Privacy Policy."
+                }
+            ],
+            "categoriesDataCollectHeading": "Categories of Personal Data We Collect",
+            "categoriesDescription": "The types of personal data we collect about you depends on your interactions with us and your use of the Services. In the past twelve (12) months, we collected the below categories of personal data from our users:",
+            "categoriesDescriptionList": [
+                {
+                    "list": "Identifiers such as a real name, alias, postal address, internet protocol address, email address, account name, or other similar identifiers."
+                },
+                {
+                    "list": "Internet or other electronic network activity information, including, but not limited to, browsing history, search history, and information regarding a consumer’s interaction with an internet website, application, or advertisement."
+                },
+                {
+                    "list": "Audio, electronic, visual, thermal, olfactory, or similar information."
+                },
+                {
+                    "list": "Professional or employment-related information."
+                }
+            ],
+            "finalCategories": "We will not collect additional categories of personal data other than those categories listed above. If we intend to collect additional categories of personal data, we will provide you with a new notice at or before the time of collection."
+        },
+        "faqs": {
+            "title": "FAQ's",
+            "quesList": [
+                {
+                    "title": "Question 1",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                    "flag": true
+                },
+                {
+                    "title": "Question 2",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                    "flag": false
+                },
+                {
+                    "title": "Question 3",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                    "flag": false
+                },
+                {
+                    "title": "Question 4",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                    "flag": false
+                },
+                {
+                    "title": "Question 5",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+                    "flag": false
+                }
+            ]
+        }
+    },
+    "sessionNotificationPop": {
+        "cancelSession": {
+            "popupClass": "user-popups",
+            "content": "Are you sure you want to cancel the session?",
+            "btns": [
+                {
+                    "title": "Go Back",
+                    "action": "close",
+                    "btnClass": ""
+                },
+                {
+                    "title": "Cancel",
+                    "action": "cancel",
+                    "btnClass": ""
+                }
+            ]
+        },
+        "cancelled": {
+            "popupClass": "user-popups",
+            "content": "Your session has been cancelled. A refund will be processed to your credit card.",
+            "btns": [
+                {
+                    "title": "Ok",
+                    "action": "close",
+                    "btnClass": "ok-btn"
+                }
+            ]
+        }
+    }
+}

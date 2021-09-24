@@ -1,0 +1,11 @@
+@import './styles/variables';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './styles/mixins';
+@import './styles/common';
+@import './styles/colors';
+@import './styles/icomoon';
+@import '~react-toastify/dist/ReactToastify.min.css';
+
+body {
+  font-family: 'Poppins', sans-serif;
+}

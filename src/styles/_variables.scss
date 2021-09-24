@@ -1,0 +1,52 @@
+$base-font-size: 18px;
+$primary:       #1A1B2F;
+$secondary:     #D8A48F;
+$ebony-clay:    #24253c;
+$ebony-clay:    #262744;
+$enury:         #D0A592;
+$jumbo:         #78787A;
+$mercury:       #E6E6E6;
+$white:         #fff;
+$petite-orchid: #D8A48F;
+$black:         #000;
+$mirage:        $primary;
+$waikawa-gray:  #585B8F;
+$martinique:       #363758;
+$blue-marguerite: #7376C1;
+$martinique-2:     #2B2C4B;
+$bright-gray:    #36374B;
+$milano-red:      #af080e;
+
+
+$font-primary: 'Poppins', sans-serif;
+
+$theme-colors: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary
+  ),
+  $theme-colors
+);
+
+// headings
+$h1-font-size:                $base-font-size * 2.75;
+$h2-font-size:                $base-font-size * 2;
+$h3-font-size:                $base-font-size * 1.5;
+$h4-font-size:                $base-font-size * 1;
+
+$grid-breakpoints: (
+    xs: 0,
+    xs-mb: 375px,
+    sm: 544px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+$container-max-widths: (
+    md: 720px,
+    lg: 940px,
+    xl: 1140px
+);

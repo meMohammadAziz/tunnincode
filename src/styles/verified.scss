@@ -1,0 +1,43 @@
+@import 'variables';
+.verify {
+    background-color: $primary;
+    min-height: 100vh;
+    padding-top: 2.5vh;
+    .container-fluid {
+        max-width: 77vw;
+    }
+    .heading {
+        font-size: 1.9vw;
+        font-weight: 400;
+        margin-bottom: 30px;
+        color: $enury;
+    }
+    .page-logo-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 80px;
+        img {
+            max-width: 137px;
+        }
+    }
+    .verify-img {
+        margin-bottom: 40px;
+        img {
+            max-width: 7.15vw;
+        }
+    }
+    .text {
+        color: $waikawa-gray;
+        font-size: 1.9vw;
+        max-width: 37vw;    
+    }
+    .next-btn-wrapper {
+        text-align: center;
+        margin-top: 18.5vh;
+        .btn-primary {
+            min-width: 16.6vw !important;
+        }
+    }
+}
